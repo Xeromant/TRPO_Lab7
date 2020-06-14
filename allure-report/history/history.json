@@ -1,0 +1,79 @@
+{
+  "d737360990cbe3e270bc43571b6e6491" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c73e2c704cdb337c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591104221748,
+        "stop" : 1591104229842,
+        "duration" : 8094
+      }
+    } ]
+  },
+  "3f77d42f9fe86e38dd925c9d7908251c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ce7c3a922dc3fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591104199507,
+        "stop" : 1591104203291,
+        "duration" : 3784
+      }
+    } ]
+  },
+  "8a1f8fe371985e85e80811bd8e751631" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a7c0ffb1482cde2",
+      "status" : "failed",
+      "statusDetails" : "expected [A account using this email address has already been registered. Please enter a valid password or request a new one.] but found [An account using this email address has already been registered. Please enter a valid password or request a new one.]",
+      "time" : {
+        "start" : 1591104193027,
+        "stop" : 1591104197429,
+        "duration" : 4402
+      }
+    } ]
+  },
+  "5ff18f6273babc6d5b9b7f5d17b8afd4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7c5a61f857d30f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591104208945,
+        "stop" : 1591104219768,
+        "duration" : 10823
+      }
+    } ]
+  }
+}

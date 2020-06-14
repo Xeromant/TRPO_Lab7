@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [A account using this email address has already been registered. Please enter a valid password or request a new one.] but found [An account using this email address has already been registered. Please enter a valid password or request a new one.]",
+      "children" : [ {
+        "name" : "registerAccountNegativeTest",
+        "uid" : "8a7c0ffb1482cde2",
+        "parentUid" : "213270b879c46e21932c5abcfdce2755",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591104193027,
+          "stop" : 1591104197429,
+          "duration" : 4402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Account(firstName=Pav, lastName=Pes, email=john.doe@yahoo.com, password=12345Password!, dayBirth=1, monthBirth=1, yearBirth=2020, address=myaddress, city=Volgograd, state=Texas, zip=12345, country=United States, phone=8800553535)", "A account using this email address has already been registered. Please enter a valid password or request a new one." ]
+      } ],
+      "uid" : "213270b879c46e21932c5abcfdce2755"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

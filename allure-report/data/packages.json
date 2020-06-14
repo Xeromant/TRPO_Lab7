@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.volsu.qa.ui",
+    "children" : [ {
+      "name" : "RegistrationNegativeTests",
+      "children" : [ {
+        "name" : "registerAccountNegativeTest",
+        "uid" : "8a7c0ffb1482cde2",
+        "parentUid" : "c8a1a3e6bd223cf94fafd284e64f3fc4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591104193027,
+          "stop" : 1591104197429,
+          "duration" : 4402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Account(firstName=Pav, lastName=Pes, email=john.doe@yahoo.com, password=12345Password!, dayBirth=1, monthBirth=1, yearBirth=2020, address=myaddress, city=Volgograd, state=Texas, zip=12345, country=United States, phone=8800553535)", "A account using this email address has already been registered. Please enter a valid password or request a new one." ]
+      }, {
+        "name" : "registerAccountNegativeTest",
+        "uid" : "1ce7c3a922dc3fd4",
+        "parentUid" : "c8a1a3e6bd223cf94fafd284e64f3fc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591104199507,
+          "stop" : 1591104203291,
+          "duration" : 3784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Account(firstName=Pav, lastName=Pes, email=john.doeyahoo.com, password=12345Password!, dayBirth=1, monthBirth=1, yearBirth=2020, address=myaddress, city=Volgograd, state=Texas, zip=12345, country=United States, phone=8800553535)", "Invalid email address." ]
+      }, {
+        "name" : "testAccountCreationFormNegativeNullOneValue",
+        "uid" : "a7c5a61f857d30f",
+        "parentUid" : "c8a1a3e6bd223cf94fafd284e64f3fc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591104208945,
+          "stop" : 1591104219768,
+          "duration" : 10823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Account(firstName=Pav, lastName=Pes, email=zz41kicb8x@test.com, password=1235Password!, dayBirth=1, monthBirth=1, yearBirth=2020, address=Volgograd, city=Texas, state=New Mexico, zip=, country=United States, phone=88005553535)", "There is 1 error\nThe Zip/Postal code you've entered is invalid. It must follow this format: 00000" ]
+      } ],
+      "uid" : "c8a1a3e6bd223cf94fafd284e64f3fc4"
+    }, {
+      "name" : "RegistrationTests",
+      "children" : [ {
+        "name" : "registerAccount",
+        "uid" : "c73e2c704cdb337c",
+        "parentUid" : "dcdd6264659950eb73c2c7aec263f6cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591104221748,
+          "stop" : 1591104229842,
+          "duration" : 8094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Account(firstName=Pav, lastName=Pes, email=3od92ok0ld@test.com, password=12345Password!, dayBirth=1, monthBirth=1, yearBirth=2020, address=myaddress, city=Volgograd, state=Texas, zip=12345, country=United States, phone=8800553535)" ]
+      } ],
+      "uid" : "dcdd6264659950eb73c2c7aec263f6cd"
+    } ],
+    "uid" : "ru.volsu.qa.ui"
+  } ]
+}
